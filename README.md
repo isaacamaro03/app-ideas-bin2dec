@@ -1,2 +1,2 @@
-# app-ideas-bin2dec
-Bin2Dec app from florinpop17/app-ideas implementation.
+# Bin2Dec
+Bin2Dec app from florinpop17/app-ideas implemented in pure Html, Css and Javascript.
