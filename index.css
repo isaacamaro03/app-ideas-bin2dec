@@ -1,0 +1,54 @@
+:root {
+
+}
+
+body {
+    height: 100vh;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+input {
+    display: block;
+}
+
+footer {
+    height: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    flex: 1;
+}
+
+button {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.page-title {
+    margin: 16px;
+    line-height: 22px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.conversion-box {
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+}
+
+.inversion-button {
+    margin: 8px 0px;
+}
