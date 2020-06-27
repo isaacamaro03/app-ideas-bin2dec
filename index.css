@@ -1,5 +1,16 @@
 :root {
+    --overlay-0: #121212;
+    --overlay-1: #272727;
+    --overlay-2: #353535;
 
+    --on-overlay: #ffffff;
+    
+    --shadow-0: #000000;
+    --border: #373737;
+}
+
+html {
+    font-family: 'Roboto Mono', monospace;
 }
 
 body {
@@ -27,6 +38,16 @@ main {
 button {
     display: inline-flex;
     justify-content: center;
+    background: var(--overlay-0);
+    color: var(--on-overlay);
+    border: 1px solid var(--border);
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.thm-dark {
+    background-color: var(--overlay-0);
+    color: var(--on-overlay);
 }
 
 .page-title {
@@ -43,6 +64,17 @@ button {
     display: flex;
 }
 
+.epic-input {
+    padding: 9px 16px;
+    border-radius: 16px;
+    border: none;
+    width: 250px;
+    background: var(--overlay-1);
+    color: var(--on-overlay);
+    height: 18px;
+    box-shadow: 1px 2px 4px -2px var(--shadow-0);
+}
+
 .conversion-box {
     display: inline-flex;
     align-items: center;
@@ -50,5 +82,5 @@ button {
 }
 
 .inversion-button {
-    margin: 8px 0px;
+    margin: 18px 0px;
 }
