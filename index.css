@@ -9,6 +9,20 @@
     --border: #373737;
 }
 
+::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--overlay-1);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: var(--on-overlay);
+    border-radius: 16px;
+}
+
 html {
     font-family: 'Roboto Mono', monospace;
 }
