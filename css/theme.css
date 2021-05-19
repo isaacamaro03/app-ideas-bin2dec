@@ -1,0 +1,15 @@
+:root {
+    --overlay-0: #121212;
+    --overlay-1: #272727;
+    --overlay-2: #353535;
+
+    --on-overlay: #ffffff;
+    
+    --shadow-0: #000000;
+    --border: #373737;
+}
+
+html {
+    background-color: var(--overlay-0);
+    color: var(--on-overlay);
+}

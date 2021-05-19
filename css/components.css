@@ -1,0 +1,70 @@
+textarea {
+    resize: none;
+    border-radius: 4px;
+    background-color: var(--overlay-1);
+    border: none;
+    color: var(--on-overlay);
+    font: inherit;
+    font-size: 18px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea:read-only {
+    opacity: .5;
+}
+
+button {
+    display: inline-flex;
+    justify-content: center;
+    --internal-button-color: var(--button-color, var(--on-overlay));
+    background: var(--overlay-0);
+    color: var(--on-overlay);
+    border: 1px solid var(--border);
+    padding: 8px 12px;
+    border-radius: 4px;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    background: var(--overlay-1);
+    color: var(--internal-button-color);
+}
+
+button:hover:after {
+    opacity: .3;
+    transform: scale(1);
+}
+
+button:active:after {
+    opacity: .5;
+}
+
+button:after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transform: scale(0);
+    border-radius: inherit;
+    background: var(--internal-button-color);
+    transition: 120ms linear;
+    transition-property: opacity, transform;
+}
+
+hr {
+    border-top: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--on-overlay);
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.conversion-box {
+    background: var(--overlay-1);
+    border-radius: 16px;
+    box-shadow: 1px 2px 4px -2px var(--shadow-0);
+    padding: 16px;
+    width: 392px;
+}
+
+.conversion-box > :first-child {
+    margin-bottom: 16px;
+}
+
+.conversion-box > :last-child {
+    margin-top: 16px;
+}
+
+.inversion-button-box {
+    position: relative;
+}
+
+.inversion-button {
+    border-radius: 50%;
+    padding: 12px;
+    position: absolute;
+    border: none;
+    right: 0;
+    left: 0;
+    top: -23px;
+    margin: 0 auto;
+}
+
+.epic-input {
+    background: var(--overlay-1);
+}
+
+.epic-input label {
+    position: absolute;
+    left: 16px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 14px;
+}

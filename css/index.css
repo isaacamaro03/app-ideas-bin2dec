@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.app {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+header > span {
+    font-size: 38px;
+    letter-spacing: .1rem;
+    margin: 8px;
+}
+
+main {
+    flex: 1;
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-idea-box {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.github-link-icon {
+    display: flex;
+    align-items: center;
+}
+
+.github-link-icon svg {
+    margin: 0px 8px 0 14px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--overlay-1);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: var(--on-overlay);
+    border-radius: 16px;
+}
