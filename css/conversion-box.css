@@ -19,14 +19,16 @@
 }
 
 .inversion-button {
+    color: var(--primary-light);
     border-radius: 50%;
     padding: 12px;
     position: absolute;
-    border: none;
+    border: 1px solid var(--border);
     right: 0;
     left: 0;
-    top: -23px;
+    top: -24px;
     margin: 0 auto;
+    z-index: 1;
 }
 
 .epic-input {

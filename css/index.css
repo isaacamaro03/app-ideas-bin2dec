@@ -42,10 +42,12 @@ footer {
 .github-link-icon {
     display: flex;
     align-items: center;
+    margin-left: 8px;
+    padding: 0 8px;
 }
 
 .github-link-icon svg {
-    margin: 0px 8px 0 14px;
+    margin-right: 8px;
 }
 
 .flex-column {
@@ -55,6 +57,23 @@ footer {
 
 .flex-row {
     display: flex;
+}
+
+* {
+    outline: none;
+}
+
+*:focus-visible {
+    animation: outline 105ms cubic-bezier(0.4, 0, 1, 1) forwards;
+}
+
+@keyframes outline {
+    from {
+        box-shadow: 0px 0px 0px 0px transparent;
+    }
+    to {
+        box-shadow: 0px 0px 0px 3px var(--primary-light-a08);
+    }
 }
 
 ::-webkit-scrollbar {
