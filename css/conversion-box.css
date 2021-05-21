@@ -31,14 +31,20 @@
     z-index: 1;
 }
 
-.epic-input {
-    background: var(--overlay-1);
+.conversion-box[inverted] .inversion-button {
+    animation: invert-button 750ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
-.epic-input label {
-    position: absolute;
-    left: 16px;
-    font-style: italic;
-    font-size: 14px;
-    line-height: 14px;
+@keyframes invert-button {
+    0% {
+        transform: rotate(0deg);
+        box-shadow: 0px 0px 0px 0px var(--shadow-1);
+    }
+    50% {
+        box-shadow: 0px 0px 20px 2px var(--shadow-1);
+    }
+    100% {
+        transform: rotate(180deg);
+        box-shadow: 0px 0px 0px 0px transparent;
+    }
 }

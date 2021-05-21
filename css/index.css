@@ -50,15 +50,6 @@ footer {
     margin-right: 8px;
 }
 
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-row {
-    display: flex;
-}
-
 * {
     outline: none;
 }
