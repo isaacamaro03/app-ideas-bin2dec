@@ -1,0 +1,15 @@
+.app-idea-box {
+    align-items: center;
+    display: inline-flex;
+}
+
+.github-link-icon {
+    align-items: center;
+    display: flex;
+    margin-left: 8px;
+    padding: 0 8px;
+}
+
+.github-link-icon svg {
+    margin-right: 8px;
+}

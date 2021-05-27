@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+    border-radius: 16px;
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--overlay-1);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: var(--on-overlay);
+    border-radius: 16px;
+}

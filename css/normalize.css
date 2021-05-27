@@ -1,0 +1,14 @@
+html, 
+body {
+    block-size: 100%;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+}
