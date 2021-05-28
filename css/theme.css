@@ -1,21 +1,20 @@
 :root {
-    --overlay-0: #121212;
-    --overlay-1: #272727;
-    --overlay-2: #353535;
+    --hue: 240;
 
-    --primary: #64b5f6;
-    --primary-light: #9be7ff;
-    --primary-light-a08: #99e7ffcc;
-    --primary-dark: #9be7ff;
+    --surface-1: hsl(var(--hue) 2% 12%);
+    --surface-2: hsl(var(--hue) 1% 16%);
 
-    --on-overlay: #ffffff;
-    
-    --shadow-0: #000000;
-    --shadow-1: #0000009e;
-    --border: #373737;
+    --text-1: hsl(var(--hue) 10% 92%);
+
+    --border: hsl(var(--hue) 2% 20%);
+
+    --brand-1: hsl(var(--hue) 80% 67%);
+
+    --shadow-0: hsl(var(--hue) 6% 2%);
+    --shadow-1: hsl(var(--hue) 6% 2%);
 }
 
 html {
-    background-color: var(--overlay-0);
-    color: var(--on-overlay);
+    background-color: var(--surface-1);
+    color: var(--text-1);
 }

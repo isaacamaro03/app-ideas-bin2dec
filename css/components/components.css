@@ -1,9 +1,9 @@
 .custom-textarea > textarea {
-    background: var(--overlay-1);
+    background: var(--surface-2);
     border: none;
     border-radius: 4px;
     box-sizing: border-box;
-    color: var(--on-overlay);
+    color: var(--text-1);
     font: inherit;
     font-size: 1.25rem;
     resize: none;
@@ -15,9 +15,9 @@
 }
 
 button {
-    --internal-button-color: var(--button-color, var(--on-overlay));
+    --internal-button-color: var(--button-color, var(--text-1));
 
-    background: var(--overlay-1);
+    background: var(--surface-2);
     border-radius: 4px;
     border: 1px solid var(--border);
     color: var(--internal-button-color);
@@ -29,16 +29,17 @@ button {
 }
 
 button:hover:after {
-    opacity: .3;
+    opacity: .1;
     transform: scale(1);
 }
 
 button:active:after {
-    opacity: .5;
+    opacity: .2;
+    background: var(--internal-button-color);
 }
 
 button:after {
-    background: var(--internal-button-color);
+    background: var(--text-1);
     border-radius: inherit;
     content: '';
     height: 100%;
@@ -54,11 +55,13 @@ button:after {
 }
 
 hr {
-    border-top: 1px var(--border);
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: var(--border);
 }
 
 a {
-    color: var(--on-overlay);
+    color: var(--text-1);
     text-decoration: none;
 }
 

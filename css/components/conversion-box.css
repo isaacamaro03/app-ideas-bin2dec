@@ -1,5 +1,5 @@
 .conversion-box {
-    background: var(--overlay-1);
+    background: var(--surface-2);
     border-radius: 16px;
     box-shadow: 1px 2px 4px -2px var(--shadow-0);
     padding: 16px;
@@ -18,9 +18,10 @@
 }
 
 .inversion-button {
+    --button-color: var(--brand-1);
+
     border-radius: 50%;
     border: 1px solid var(--border);
-    color: var(--primary-light);
     left: 0;
     margin: 0 auto;
     padding: 12px;
@@ -28,22 +29,4 @@
     right: 0;
     top: -24px;
     z-index: 1;
-}
-
-.conversion-box[inverted] .inversion-button {
-    animation: invert-button 750ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
-@keyframes invert-button {
-    0% {
-        box-shadow: 0px 0px 0px 0px var(--shadow-1);
-        transform: rotate(0deg);
-    }
-    50% {
-        box-shadow: 0px 0px 20px 2px var(--shadow-1);
-    }
-    100% {
-        box-shadow: 0px 0px 0px 0px transparent;
-        transform: rotate(180deg);
-    }
 }

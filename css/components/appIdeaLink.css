@@ -11,5 +11,7 @@
 }
 
 .github-link-icon svg {
+    fill: var(--text-1);
+    height: 1.8rem;
     margin-right: 8px;
 }
