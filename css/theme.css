@@ -4,6 +4,7 @@
     --surface-1: hsl(var(--hue) 2% 12%);
     --surface-2: hsl(var(--hue) 1% 16%);
 
+    --text-placeholder: hsl(var(--hue) 4% 80%);
     --text-1: hsl(var(--hue) 10% 92%);
 
     --border: hsl(var(--hue) 2% 20%);

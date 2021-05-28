@@ -6,12 +6,17 @@
     color: var(--text-1);
     font: inherit;
     font-size: 1.25rem;
+    letter-spacing: .005rem;
     resize: none;
     width: 100%;
 }
 
 .custom-textarea > textarea:read-only {
-    opacity: .7;
+    opacity: .9;
+}
+
+.custom-textarea > textarea::placeholder {
+    color: var(--text-placeholder);
 }
 
 button {
